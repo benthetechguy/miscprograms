@@ -32,9 +32,13 @@ Add the following to the beginning of the arguments to specify lwjgl2 or lwjgl3 
 
 `-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl2arm32`
 
-1.13 and later:
+1.13 to 1.14.2 will not run on 32 Bit ARM.
+
+1.14.3 and later:
 
 `-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl3arm32`
+
+All releases and snapshots past 1.16.5 will not run.
 
 Example:
 ![Launch Settings](https://i.imgur.com/FTq8eYW.png)
@@ -46,13 +50,15 @@ Click "Save Profile"
 
 Tick "JVM Arguments"
 
-Add the following to the beginning of the arguments to specify lwjgl2 or lwjgl3 depending on minecraft version:
+Add the following to the beginning of the arguments to specify lwjgl3:
 
-1.12.2 and earlier will not run on 64 Bit ARM.
+1.14.2 and earlier will not run on 64 Bit ARM.
 
-1.13 and later:
+1.14.3 and later:
 
-`-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl2arm32`
+`-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl3arm64`
+
+All releases and snapshots past 1.16.5 will not run.
 
 Click "Save Profile"
 
