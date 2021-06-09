@@ -6,11 +6,11 @@
 
 Click "Edit Profile"
 
-![Edit Profile](https://i.imgur.com/6jHH6Nw.png)
+![Edit Profile](https://github.com/benthetechguy/miscprograms/raw/master/minecraft-launcher-arm/EditProfile.png)
 
 Select "Use Version", choose the version you require
 
-![UseVersion](https://i.imgur.com/8QYHpnQ.png)
+![Use Version](https://github.com/benthetechguy/miscprograms/raw/master/minecraft-launcher-arm/UseVersion.png)
 
 ## Step 3: Change the launch settings
 
@@ -18,7 +18,7 @@ Tick "Executable"
 
 Replace the OpenJDK path with the Oracle JDK path:
 
-`/opt/jdk/jdk1.8.0_251/bin/java`
+`/usr/lib/jvm/java-8-jdk/bin/java`
 
 The next step differs depending on if you're using 32 or 64 bit ARM:
 
@@ -41,8 +41,7 @@ Add the following to the beginning of the arguments to specify lwjgl2 or lwjgl3 
 All releases and snapshots past 1.16.5 will not run.
 
 Example:
-![Launch Settings](https://i.imgur.com/FTq8eYW.png)
-*Ignore the *`/home/pi/lwjgl3arm32`* in the image, this is from a different tutorial using a different directory*
+![Launch Settings](https://github.com/benthetechguy/miscprograms/raw/master/minecraft-launcher-arm/LaunchSettings.png)
 
 Click "Save Profile"
 
@@ -62,12 +61,12 @@ All releases and snapshots past 1.16.5 will not run.
 
 Click "Save Profile"
 
-![Save Profile](https://i.imgur.com/2xYmYb5.png)
+![Save Profile](https://github.com/benthetechguy/miscprograms/raw/master/minecraft-launcher-arm/SaveProfile.png)
 
 ## Step 4: Install and Play Minecraft
 
 Click "Play" to install and launch Minecraft.
 
-![Play](https://i.imgur.com/8jIVqxW.png)
+![Play](https://github.com/benthetechguy/miscprograms/raw/master/minecraft-launcher-arm/Play.png)
 
 If everything went correctly Minecraft should be up and running!
