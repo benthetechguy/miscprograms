@@ -38,7 +38,7 @@ Add the following to the beginning of the arguments to specify lwjgl2 or lwjgl3 
 
 `-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl3arm32`
 
-All releases and snapshots past 1.16.5 will not run.
+All releases and snapshots past 1.16.5 will not run on 32 Bit ARM due to lack of Java 16.
 
 Example:
 
@@ -58,7 +58,7 @@ Add the following to the beginning of the arguments to specify lwjgl3:
 
 `-Dorg.lwjgl.librarypath=/opt/minecraft/lwjgl3arm64`
 
-All releases and snapshots past 1.16.5 will not run.
+Releases past 1.16.5 will theoretically run with Java 16 but this is untested.
 
 Click "Save Profile"
 
