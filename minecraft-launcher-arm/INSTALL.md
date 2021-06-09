@@ -41,6 +41,7 @@ Add the following to the beginning of the arguments to specify lwjgl2 or lwjgl3 
 All releases and snapshots past 1.16.5 will not run.
 
 Example:
+
 ![Launch Settings](https://github.com/benthetechguy/miscprograms/raw/master/minecraft-launcher-arm/LaunchSettings.png)
 
 Click "Save Profile"
